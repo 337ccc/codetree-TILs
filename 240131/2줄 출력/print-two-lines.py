@@ -1,0 +1,1 @@
+print('Hello\nWorld')  ## \n 을 작성하면 다음 줄로 넘어감
