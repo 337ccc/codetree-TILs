@@ -1,2 +1,3 @@
+word = input()
 for _ in range(2):
-    print('LeeBrosCode')
+    print(word)
