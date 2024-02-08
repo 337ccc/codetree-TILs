@@ -2,8 +2,8 @@ word = list(input())
 
 before_alpha = word[0]
 new_word = ''
-count = 1
-for i in range(1, len(word)):
+count = 0
+for i in range(0, len(word)):
     if before_alpha == word[i]:
         count += 1
         if i == len(word) - 1:
