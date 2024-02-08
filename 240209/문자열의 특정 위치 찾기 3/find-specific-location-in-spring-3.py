@@ -1,13 +1,13 @@
 word = input()
 alphabet = input()
 
-order = 1
+order = 0
 for i in word:
-    if i != alphabet:
-        order += 1
-    else:
-        print(order)
+    if i == alphabet:
+        print(order + 1)
         break
+    else:
+        order += 1
 
 if order == len(word):
     print('Not Found')
