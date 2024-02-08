@@ -9,5 +9,5 @@ for i in word:
     else:
         order += 1
 
-if order == len(word):
+if order == len(word) - 1:
     print('Not Found')
