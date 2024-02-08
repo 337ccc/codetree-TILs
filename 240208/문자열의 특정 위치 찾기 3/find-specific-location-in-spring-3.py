@@ -4,7 +4,7 @@ alphabet = input()
 count = 0
 for i in word:
     if i == alphabet:
-        print(count + 1)
+        print(count)
         break
     else:
         count += 1
