@@ -3,11 +3,11 @@ alphabet = input()
 
 order = 1
 for i in word:
-    if i == alphabet:
+    if i != alphabet:
+        order += 1
+    else:
         print(order)
         break
-    else:
-        order += 1
 
-if order == len(word) - 1:
+if order == len(word):
     print('Not Found')
