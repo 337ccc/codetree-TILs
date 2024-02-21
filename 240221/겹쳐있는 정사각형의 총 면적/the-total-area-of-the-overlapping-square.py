@@ -1,0 +1,1 @@
+N, K = map(int, input().split())  # N : 정사각형 개수, K : 한 변의 길이
