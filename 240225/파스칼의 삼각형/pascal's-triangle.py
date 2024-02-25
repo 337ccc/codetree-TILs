@@ -11,7 +11,7 @@ if n >= 3:
             line.append(num)
         line.append(1)
         arr.append(line)
-    n = n + 1. # 1 뺐던 걸 다시 더해줌
+    n = n + 1  # 1 뺐던 걸 다시 더해줌
 
 for m in range(n):
     print(*arr[m])
