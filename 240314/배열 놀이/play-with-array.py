@@ -8,6 +8,8 @@ for _ in range(q):
     elif quest[0] == 2:
         if quest[1] in factor:
             print(factor.index(quest[1]) + 1)
+        else:
+            print(0)
     else:
         a = quest[1]
         b = quest[2]
