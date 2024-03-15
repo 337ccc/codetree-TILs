@@ -5,7 +5,7 @@ list_B = list(map(int, input().split()))
 answer = 'No'
 for i in range(len(list_A)):
     new_list = []
-    if list_A[i] == list_B[0]:
+    if list_A[i] == list_B[0] and len(list_A) >= i + len(list_B):
         for j in range(len(list_B)):
             if list_B[j] == list_A[i + j]:
                 new_list.append(list_A[i + j])
