@@ -1,14 +1,10 @@
 arr = list(map(int, input().split()))
 
-max_num = -1000
-min_num = 1000
+new_arr = []
 for i in arr:
-    if i == 999 or i == -999:
-        break
+    if i != 999 or i != -999:
+        new_arr.append(i)
     else:
-        if i > max_num:
-            max_num = i
-        elif i < min_num:
-            min_num = i
+        break
 
-print(max_num, min_num)
+print(max(new_arr), min(new_arr))
