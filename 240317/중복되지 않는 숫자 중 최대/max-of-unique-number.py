@@ -12,4 +12,7 @@ for i in repeat_check:
         if max_num < i:
             max_num = i
 
+if max_num == 0:
+    max_num = -1
+
 print(max_num)
