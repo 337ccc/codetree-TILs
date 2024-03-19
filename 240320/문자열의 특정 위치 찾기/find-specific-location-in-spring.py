@@ -1,3 +1,8 @@
 word, alhapbet = input().split()
 
-print(word.find(alhapbet))
+answer = word.find(alhapbet)
+
+if answer == -1:
+    print('No')
+else:
+    print(answer)
