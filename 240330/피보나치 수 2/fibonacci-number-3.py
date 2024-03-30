@@ -1,8 +1,9 @@
 n = int(input())
-fibo_dict = {0:0, 1:1}
+fibo_lst = [0, 1]
 
 if n != 1:
     for i in range(2, n + 1):
-        fibo_dict[i] = fibo_dict[i - 2] + fibo_dict[i - 1]
+        answer = fibo_lst[i - 2] + fibo_lst[i - 1]
+        fibo_lst.append(answer)
 
-print(fibo_dict[n] % 1000000007)
+print(answer % 1000000007)
