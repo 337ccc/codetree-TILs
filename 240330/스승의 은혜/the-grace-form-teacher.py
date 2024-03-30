@@ -1,6 +1,7 @@
 def max_students(N, B, students):
-    # 선물의 가격을 기준으로 올림차순으로 학생들을 정렬
-    students.sort(key=lambda x: (x[0], x[1]))
+    # 선물 가격과 배송비의 합을 기준으로 올림차순으로 학생들을 정렬
+    # students.sort(key=lambda x: (x[0], x[1]))
+    students.sort(key=lambda x: x[0] + x[1])
 
     total_cost = 0
     count = 0
