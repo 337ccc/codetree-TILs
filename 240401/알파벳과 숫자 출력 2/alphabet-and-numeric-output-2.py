@@ -2,7 +2,6 @@ n = int(input())
 
 alpha_count = 64
 num_count = -1
-print(chr(90))
 for i in range(n + 1):
     for j in range(n - i, 0, -1):
         if alpha_count == 90:
