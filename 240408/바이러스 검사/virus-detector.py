@@ -12,6 +12,9 @@ for i in visitor_num:
     if visitor <= 0:
         continue
     else:
-        count += (visitor // member) + 1
+        if visitor % member != 0:
+            count += (visitor // member) + 1
+        else:
+            count += visitor // member
 
 print(count)
