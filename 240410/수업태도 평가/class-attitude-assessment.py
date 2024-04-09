@@ -12,7 +12,7 @@ n = int(input())
 for _ in range(n):
     name, score = input().split()
     score = int(score)
-    student[name] = score
+    student[name] += score
 
 final_score_lst = [
     student['Bessie'],
