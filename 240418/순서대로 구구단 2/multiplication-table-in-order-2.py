@@ -7,6 +7,7 @@ if a <= b:
             for j in range(3):
                 num += 1
                 print(f'{i} * {num} = {i * num}', end='  ')
+            print()
         print()
 else:
     for i in range(a, b - 1, -1):
